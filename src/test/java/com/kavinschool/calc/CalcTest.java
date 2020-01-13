@@ -48,6 +48,6 @@ public class CalcTest {
 
 	@Test
 	public void testUniverseIsBroken() {
-		assertEquals( 3, new CalcTest( 1, 1 ).add(), .01 );
+		assertEquals( 3, new Calc( 1, 1 ).add(), .01 );
 	}
 }
