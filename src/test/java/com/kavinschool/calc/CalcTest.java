@@ -47,7 +47,7 @@ public class CalcTest {
 	}
 
 	@Test
-	public void testUniverseIsBroken() {
-		assertEquals( 3, new Calc( 1, 1 ).add(), .01 );
+	public void testUniverseIsntBroken() {
+		assertEquals( 2, new Calc( 1, 1 ).add(), .01 );
 	}
 }
